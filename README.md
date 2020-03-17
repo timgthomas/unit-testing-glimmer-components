@@ -1,57 +1,16 @@
-# glimmer-unit-test
+# Example App: Unit-testing Glimmer Components
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This app provides an example of unit-testing Glimmer components in Ember Octane apps. For more information, [read the associated blog post](https://timgthomas.com/2019/11/unit-testing-glimmer-components/).
 
-## Prerequisites
+## Points of Interest
 
-You will need the following things properly installed on your computer.
+* [Component class](//github.com/timgthomas/unit-testing-glimmer-components/blob/master/app/pods/components/test/component.js)
+* [Unit test](//github.com/timgthomas/unit-testing-glimmer-components/blob/master/tests/unit/pods/components/test/component-test.js)
+* [Test helper](//github.com/timgthomas/unit-testing-glimmer-components/blob/master/tests/helpers/create-component.js)
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+## Building and Running
 
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd glimmer-unit-test`
-* `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+```
+$ yarn
+$ yarn test
+```
